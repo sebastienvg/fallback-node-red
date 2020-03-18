@@ -1,6 +1,6 @@
 SOURCE="${BASH_SOURCE[0]}"
 DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
-SYSTEM_CONFIG="$DIR/mycroft/configuration/mycroft.conf"
+SYSTEM_CONFIG="~/.mycroft/mycroft.conf"
 
 function get_config_value() {
   key="$1"
